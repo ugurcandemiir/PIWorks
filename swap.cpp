@@ -1,12 +1,10 @@
-using System;  
-  public class SwapExample  
+public class SwapExample  
    {  
      public static void Main(string[] args)  
       {  
-       int  a=5, b=10;
-       int temp = 0;
-       temp = a ;      
-        a=b;
-        b=temp;
+       int  a=2, b=3;
+       a = a * b;  
+       b = a / b; 
+       a = a / b; 
       }  
   }  
